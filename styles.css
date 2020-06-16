@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(172, 219, 218);
+    color: midnightblue;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#currentList {
+    min-height: 200px;
+}
+
+hr {
+    border: none;
+    width: 575px;
+    background-color: midnightblue;
+    height: 1px;
+    margin-left: 0;
+}
+
+button, input[type=submit] {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid midnightblue;
+    margin-left: 3px;
+    font-family: Fira Sans;
+}
+
+button:hover, input[type=submit]:hover {
+    background-color: mintcream;
+}
+
+input[type=text] {
+    background-color: rgb(172, 219, 218);
+    font-family: Fira Sans;
+    border: 1px solid midnightblue;
+    width: 300px;
+    margin-left: 3px;
+}
+
+input[type=text]:hover {
+    background-color: mintcream;
+}
+
+.crossOff {
+    text-decoration: line-through;
+}
+
